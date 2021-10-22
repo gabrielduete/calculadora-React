@@ -93,30 +93,11 @@ function App(){
         '*': (num1, num2) => (parseFloat(num1) * parseFloat(num2)),
       }
 
-      switch(calculo['operador']){
-        case '+':
-          setResultado(operacoes['+'](calculo.primeiroNum, calculo.segundoNum))
-          calculo.ultimoNumero = operacoes['+'](calculo.primeiroNum, calculo.segundoNum)
-          break;
-        case '-':
-          setResultado(operacoes['-'](calculo.primeiroNum, calculo.segundoNum))
-          calculo.ultimoNumero = operacoes['-'](calculo.primeiroNum, calculo.segundoNum)
-          break;
-        case '*':
-          setResultado(operacoes['*'](calculo.primeiroNum, calculo.segundoNum))
-          calculo.ultimoNumero = operacoes['*'](calculo.primeiroNum, calculo.segundoNum)
-          break;
-        case '/':
-          setResultado(operacoes['/'](calculo.primeiroNum, calculo.segundoNum))
-          calculo.ultimoNumero = operacoes['/'](calculo.primeiroNum, calculo.segundoNum)
-          break;
-        case '%':
-          setResultado(operacoes['%'](calculo.primeiroNum, calculo.segundoNum))
-          calculo.ultimoNumero = operacoes['%'](calculo.primeiroNum, calculo.segundoNum)
-          break;
-        default:
-          break;
-      }
+      
+     
+      let result = operacoes[calculo['operador']](calculo.primeiroNum, calculo.segundoNum)
+      calculo.ultimoNumero = result
+      setResultado(result)
 
       setOperador2(true)
       setOperador(false)
