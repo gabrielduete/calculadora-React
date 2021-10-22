@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.botoes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botoes button{
+    padding: 4% 0%;
+    font-size: 0.90em;
+    width: 25%; 
+    margin: 3% 0%;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.botoes .operador{
+    color: rgb(20, 89, 253);
+    font-size: 1.2em;
+}
+
+.botoes button:first-child{
+    color: rgb(165, 40, 40);
+    font-size: 1.2em;
+}
+
+.botoes .operador:last-child{
+    background-color: rgb(20, 89, 253);
+    width: 45%;
+    color: white;
+    border-bottom-right-radius: 8px;
+}
