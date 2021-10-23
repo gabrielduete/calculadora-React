@@ -1,0 +1,10 @@
+.calculadora{
+    background-color: rgb(37,37,37);
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.171);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
