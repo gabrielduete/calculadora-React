@@ -7,4 +7,75 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media (min-width: 500px) { 
+  .calculadora{
+    font-size: 1.2em;
+    width: 65%;
+    height: 65%;
   }
+}
+
+@media (min-width: 700px) and (min-height: 720px){ 
+  .calculadora{
+    font-size: 1em;
+    width: 65%;
+    height: 80%;
+  }
+}
+
+@media (min-width:801px) {
+  .calculadora{
+    font-size: 1.5em;
+    width: 65%;
+    height: 80%;
+  }
+
+}
+
+@media (min-width:540px) and (min-height: 720px) {
+  .calculadora{
+    width: 50%;
+    height: 80%;
+    font-size: 1em;
+  }  
+}
+
+@media (min-width:1281px) {
+  .calculadora{
+    width: 20%;
+    height: 80%;
+    font-size: 1em;
+  }  
+}
+
+@media (min-width:1024px){
+  .calculadora{
+    width: 20%;
+    height: 80%;
+    font-size: 1em;
+  }  
+}
+
+@media (min-width:1023px) and (min-height: 1355px){
+  .calculadora{
+    width: 40%;
+    height: 70%;
+    font-size: 1.3em;
+  }
+}  
+
+@media (min-width: 1500px) {
+  .calculadora{
+    width: 30%;
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 600px) and (min-height: 1024px) {
+  .calculadora{
+    height: 60%;
+    font-size: 1.2em;
+  }
+}
