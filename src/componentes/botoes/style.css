@@ -21,6 +21,10 @@
     outline: none;
 }
 
+.botoes button:active{
+    background-color: rgb(51, 51, 51);
+}
+
 .botoes .operador{
     color: rgb(20, 89, 253);
     font-size: 1.2em;
