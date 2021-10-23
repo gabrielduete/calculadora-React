@@ -1,11 +1,9 @@
 .containerDisplay{
-    /* background-color: red; */
     height: 100%;
     padding: 0% 8%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    overflow:inherit;
 }
 
 p{
@@ -20,5 +18,6 @@ p{
 }
 
 .resultado{
+    overflow: auto;
     font-size: 1.5em;
 }
