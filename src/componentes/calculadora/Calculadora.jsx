@@ -151,7 +151,7 @@ function Calculadora(){
             setResultado('Error')
         }
      
-        // Função com as operações
+        // Função geral responsavel por suportar as outras funções e fazer as verificações necessárias para executar cada função de acordo com o clique do botão
         const calcula = (num) => {
             if (!isNaN(num) || num === '.' || num === 'backspace'){
                 recebeValores(num)
