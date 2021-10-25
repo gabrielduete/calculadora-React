@@ -1,5 +1,5 @@
 <h1 align='center'>
-    Calculadora com React
+    Calculadora minimalista desenvolvida com Reactjs.
 </h1>
 
 # 🤔 Sobre
